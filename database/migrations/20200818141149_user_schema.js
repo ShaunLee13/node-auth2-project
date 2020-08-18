@@ -10,7 +10,7 @@ exports.up = function(knex) {
     
     table.string('password',50).notNullable()
 
-    table.string('department', 64)
+    table.string('department', 64).notNullable()
   })
 };
 
